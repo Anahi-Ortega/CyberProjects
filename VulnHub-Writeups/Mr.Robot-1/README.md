@@ -46,6 +46,7 @@ wpscan --url http://10.38.1.111/wp-login/php -U 'elliot' -P filtered.txt
 
 ~~~
 - Ran the filtered text against the password with the username elliot
+- Obtained user-level shell access
 ~~~
 
 locate php-re
@@ -65,7 +66,8 @@ nc -lvnp 443
  - We crack the hash to find the password for robot  
  - Now that we have the password we can login to the Mr.Robot and read .txt  
 ### 4. Privilege Escalation (Flag 3)
--
+
+
 ~~~
 
 python -c 'import pty;pty.spawn("/bin/bash")'
@@ -73,11 +75,9 @@ python -c 'import pty;pty.spawn("/bin/bash")'
 su robot
 
 ~~~
-- We
 
-### 5. Enumeration (Flag 3)
 
-### 6. Exploitation (Flag 3)
+
 ---
 
 ## Flags Captured  
@@ -87,9 +87,10 @@ Flag 3: 04787ddef27c3dee1ee161b21670b4e4
 ---
 
 ## Lessons Learned
-Protection against rainbow tables  
-- Password salting  
-- Login attempt limit  
+- Deploy password salting  
+- Require login attempt limit for timeframes
+- 
+- 
 ---
 
 ## References
