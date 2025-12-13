@@ -87,7 +87,7 @@ which nmap
 nmap --version
 ~~~
 - We find nmap on the machine (a hit from the fact that it is a webserver) and review which version is running to find out if there are any known vulnerabilites.
-- We find that they are running 
+- We find that they are running a machine with a known vulnerability
 ~~~
 export TERM=xterm
 nmap --interactive
@@ -119,5 +119,5 @@ Flag 3: 04787ddef27c3dee1ee161b21670b4e4
 ---
 
 ## References
-Mahcine on Vulnhub: https://www.vulnhub.com/entry/mr-robot-1,151/
+Machine on Vulnhub: https://www.vulnhub.com/entry/mr-robot-1,151/
 Video Tutorial: https://www.youtube.com/watch?v=D_aiSOmC6V8
