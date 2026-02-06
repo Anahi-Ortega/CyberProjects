@@ -1,13 +1,13 @@
 # Mr. Robot: 1 — Technical Security Walkthrough
 
 ## Overview
-**Machine:** Mr-Robot: 1 \\
-**Platform:** VulnHub \\
-**Difficulty:** Beginner–Intermediate \\
-**Date Completed:** August 17, 2025 \\
-**Operating System:** Kali Linux \\
-**Assessment Type:** Black-box \\
-**Tools Used:** Kali Linux, Nmap, GoBuster, WPScan, Netcat, Python, Nano \\
+**Machine:** Mr-Robot: 1  
+**Platform:** VulnHub  
+**Difficulty:** Beginner–Intermediate  
+**Date Completed:** August 17, 2025  
+**Operating System:** Kali Linux  
+**Assessment Type:** Black-box  
+**Tools Used:** Kali Linux, Nmap, GoBuster, WPScan, Netcat, Python, Nano  
 
 ---
 
