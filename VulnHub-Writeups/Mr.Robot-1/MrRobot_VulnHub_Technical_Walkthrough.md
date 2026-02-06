@@ -31,17 +31,14 @@
 
 ## Methodology & Findings
 
----
-
 ### 1. Reconnaissance  
 **MITRE ATT&CK:**  
 - `T1046` – Network Service Discovery  
 **NIST CSF:**  
 - `ID.AM-2` – Software platforms and applications identified  
 
-'''
-sudo nmap -sS -T4 10.38.110-120
-'''
+
+~~~sudo nmap -sS -T4 10.38.110-120~~~
 **
 
 ## Flags Captured  
