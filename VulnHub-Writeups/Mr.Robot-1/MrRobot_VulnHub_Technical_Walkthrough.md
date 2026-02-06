@@ -1,13 +1,13 @@
 # Mr. Robot: 1 — Technical Security Walkthrough
 
 ## Overview
-- **Machine:** Mr-Robot: 1
-- **Platform:** VulnHub
-- **Difficulty:** Beginner–Intermediate
-- **Date Completed:** August 17, 2025
-- **Operating System:** Linux
-- **Assessment Type:** Black-box
-- **Tools Used:** Kali Linux, Nmap, GoBuster, WPScan, Netcat, Python, Nano
+**Machine:** Mr-Robot: 1
+**Platform:** VulnHub
+**Difficulty:** Beginner–Intermediate
+**Date Completed:** August 17, 2025
+**Operating System:** Linux
+**Assessment Type:** Black-box
+**Tools Used:** Kali Linux, Nmap, GoBuster, WPScan, Netcat, Python, Nano
 
 ---
 
@@ -39,9 +39,9 @@
 **NIST CSF:**  
 - `ID.AM-2` – Software platforms and applications identified  
 
-```bash
+'''
 sudo nmap -sS -T4 10.38.110-120
-
+'''
 **
 
 ## Flags Captured  
