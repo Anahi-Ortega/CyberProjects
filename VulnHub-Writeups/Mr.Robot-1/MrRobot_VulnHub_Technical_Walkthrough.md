@@ -38,8 +38,10 @@
 - `ID.AM-2` – Software platforms and applications identified  
 
 
-~~~sudo nmap -sS -T4 10.38.110-120~~~
-**
+~~~
+sudo nmap -sS -T4 10.38.110-120
+~~~
+
 
 ## Flags Captured  
 Flag 1: 073403c8a58a1f80d943455fb30724b9  
