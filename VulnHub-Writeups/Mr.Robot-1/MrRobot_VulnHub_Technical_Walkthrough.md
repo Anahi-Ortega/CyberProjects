@@ -51,12 +51,87 @@ Public-facing web services expanded the attack surface and enabled further enume
 
 
 ### 2. Web Enumeration (Flag 1)
+**MITRE ATT&CK:**
+- `T1595.002` – Active Scanning: Vulnerability Scanning
+- `T1083` – File and Directory Discovery
+**NIST CSF:**
+- `PR.IP-1` – Secure configuration of information systems
+~~~
+gobuster dir -u http://10.38.1.111 \
+-w /usr/share/dirbuster/wordlists/directory-list-2.3-small.txt
+~~~
+
+**Findings:**
+- `/robots.txt` exposed:
+  - Hidden directory containing Flag 1
+  - Credential dictionary (`fsociety.disc`)
+- WordPress login page discovered (`/wp-login.php`)
+
+**Impact:**
+Sensitive operational data was disclosed through misconfigured web controls. 
 
 
-## Root Cause
+### 3. Credential Access & Exploitation (Flag 2)
+**MITRE ATT&CK:**
+- `T1110.002` – Brute Force: Password Cracking
+
+- `T1078` – Valid Accounts
+NIST CSF:
+- `PR.AC-1` – Identity and credential management
+~~~
+cat fsociety.dic | sort -u > filtered.dic
+wpscan --url http://10.38.1.111/wp-login.php \
+-U elliot -P filtered.dic
+~~~
+**Result:**
+- Valid credentials obtained for WordPress user elliot
+- Administrative access to WordPress dashboard
+
+**Impact:**
+Weak authentication controls enabled unauthorized access.
+
+
+### 4. Initial Access & Shell Execution
+**MITRE ATT&CK:**
+- `T1505.003` - Web Shell
+- `T1059` - Command and Scripting Interpreter
+**NIST CSF:**
+- `DE.CM-7` - Monitoring for unauthorized activity
+~~~
+nc -lvnp 443
+~~~
+- A PHP reverse shell was uploaded and executed
+- Interactive shell access obtained
+
+**Impact:**
+Remote command execution enabled full system enumeration.
+
+
+### 5. Lateral Movement & Credential Cracking
+**MITRE ATT&CK:**
+- `T1003` – Credential Dumping
+**NIST CSF:**
+- `PR.AC-6` – Least privilege
+- Located `/home/robot`
+- Cracked MD5 hash to obtain `robot` user password
+- Retrieved Flag 2
+
+
+### 6. Privilege Escalation (Flag 3) 
+**MITRE ATT&CK:**
+- `T1068` – Exploitation for Privilege Escalation
+- `T1548.003` – Abuse Elevation Control Mechanism
+**NIST CSF:**
+- `PR.IP-7` – Least functionality
+~~~
+nmap --interactive
+!/bin/bash
+~~~
+
+**Root Cause:**
 Outdated Nmap binary with interactive mode enabled allowed shell escape
 
-## Impact
+**Impact:**
 Complete system compromize (root access) and retrieval of Flag 3
 
 ## Flags Captured  
@@ -77,7 +152,7 @@ Flag 3: 04787ddef27c3dee1ee161b21670b4e4
 ---
 
 ## References
-Machine on Vulnhub: https://www.vulnhub.com/entry/mr-robot-1,151/
-MITRE ATT&CK: https://attack.mitre.org
-NIST CSF: https://www.nist.goc/cyberframework
+Machine on Vulnhub: https://www.vulnhub.com/entry/mr-robot-1,151/  
+MITRE ATT&CK: https://attack.mitre.org  
+NIST CSF: https://www.nist.goc/cyberframework  
 Video Tutorial: https://www.youtube.com/watch?v=D_aiSOmC6V8
