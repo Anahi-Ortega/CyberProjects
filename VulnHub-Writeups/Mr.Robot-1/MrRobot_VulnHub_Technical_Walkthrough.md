@@ -37,25 +37,47 @@
 **NIST CSF:**  
 - `ID.AM-2` – Software platforms and applications identified  
 
-
 ~~~
 sudo nmap -sS -T4 10.38.110-120
 ~~~
 
+**Findings:**
+- TCP 80 (HTTP) – Apache Web Server
+- TCP 443 (HTTPS)
+- TCP 22 (SSH)
+
+**Impact:**
+Public-facing web services expanded the attack surface and enabled further enumeration
+
+
+### 2. Web Enumeration (Flag 1)
+
+
+## Root Cause
+Outdated Nmap binary with interactive mode enabled allowed shell escape
+
+## Impact
+Complete system compromize (root access) and retrieval of Flag 3
 
 ## Flags Captured  
 Flag 1: 073403c8a58a1f80d943455fb30724b9  
 Flag 2: 822c73956184f694993bede3eb39f959  
 Flag 3: 04787ddef27c3dee1ee161b21670b4e4  
+
 ---
 
-## Lessons Learned
-- Deploy password salting  
-- Require login attempt limit for timeframes
-- 
-- 
+## Mitigations  
+- Remove sensitive data from robots.txt  
+- Enforce strong password policies and rate limiting  
+- Harden WordPress authentication  
+- Restrict executable binaries  
+- Patch legacy software  
+- Apply least-privilege principles  
+
 ---
 
 ## References
 Machine on Vulnhub: https://www.vulnhub.com/entry/mr-robot-1,151/
+MITRE ATT&CK: https://attack.mitre.org
+NIST CSF: https://www.nist.goc/cyberframework
 Video Tutorial: https://www.youtube.com/watch?v=D_aiSOmC6V8
