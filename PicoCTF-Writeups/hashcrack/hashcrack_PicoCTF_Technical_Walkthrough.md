@@ -85,13 +85,13 @@ To prevent similar compromises:
 4. Enforce minimum password complexity
 5. Implement account lockout policies against brute force attempts
 
-**Key Takeaways**
+## Key Takeaways
 - Hashing alone does not make passwords secure.
 - Fast hash algorithms are inappropriate for password storage.
 - Weak passwords are easily cracked even with strong algorithms.
 - Salting significantly increases resistance against rainbow table attacks.
 
-**Final Flag**
+## Final Flag
 ~~~
 picoCTF{UseStr0nG_h@shEs_&PaSswDs!_4c95d69f}
 ~~~
