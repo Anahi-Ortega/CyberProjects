@@ -12,3 +12,8 @@
 
 
 ## Objectives
+
+## Flag
+~~~
+picoCTF{forensics_analysis_is_amazing_2561a194}
+~~~
