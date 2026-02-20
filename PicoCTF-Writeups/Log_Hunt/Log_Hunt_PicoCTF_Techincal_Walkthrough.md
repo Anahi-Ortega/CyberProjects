@@ -18,7 +18,7 @@
 - Remove duplicate entries
 - Reconstruct the complete flag
 
-##Attack Path Summary 
+## Attack Path Summary 
 1. Inspected the log file for visible patterns
 2. Identified recurring FLAGPART entries
 3. Filtered log lines containing flag fragments
@@ -60,11 +60,12 @@ grep "FLAGPART" server.log | cut -c38- | sort -u > cleaned.log
 This command isolated only the unique flag fragments without timestamps or log-level prefixes.
 
 ### 4. Flag Reconstruction
-After reviewing cleaned.log, the unique flag fragments could be assembled in the correct order to reconstruct the full flag.
+The unique flag fragements can be reviewed.  
 ~~~
 cat cleaned.log
 ~~~
-The resulting fragments were combined to form the final flag. 
+The resulting fragments were combined in the correct order to form the final flag. 
+
 
 ## Security Analysis
 **Root Cause**  
