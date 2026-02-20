@@ -4,7 +4,7 @@
 **Challenge:** Log Hunt  
 **Release:** picoMini by CMU-Africa  
 **Difficulty:** Easy  
-**Assesment Type:** Log Analysis / File Forensics
+**Assesment Type:** Log Analysis / File Forensics  
 **Category:** General Skills  
 **Date Completed:** February 19, 2026  
 **Tools Used:** Kali Linux, cat, grep, sort, cut
