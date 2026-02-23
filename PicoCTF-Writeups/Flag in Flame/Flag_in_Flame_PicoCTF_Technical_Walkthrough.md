@@ -95,7 +95,7 @@ Security analysts must recognize common encoding patterns and methodically decod
 
 ## Lessons Learned
 - When logs appear unreadable, consider encoding rather than corruption.
-- The file command is essential for identifying unknown binary data.
+- The `file` command is essential for identifying unknown binary data.
 - Large encoded files often conceal binary objects.
 - Multi-layer encoding is common in both CTFs and real-world breaches.
 - Even when unsure of the next step, systematic testing and research can lead to progress.
