@@ -1,6 +1,6 @@
 # Crack the Gate 1 - Techincal Security Writup
 
-##Overview
+## Overview
 **Challenge:** Crack the Gate 1  
 **Platform:** picoMini by CMU-Africa  
 **Difficulty:** Easy  
