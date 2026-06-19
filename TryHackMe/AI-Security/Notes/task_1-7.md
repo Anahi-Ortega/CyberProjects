@@ -9,7 +9,6 @@ Learn AI basics, key terms, and how it's used by both attackers and defenders.
 
 **Machine Learning Structured Lifestyle**
 ----
-
 Define Problem → Data Collection → Algorithm Selection + Model → Data Cleaning → Feature Engineering → Model Evaluation + Training → Model Development → Model Monitoring
 ----
 Machine learning algorithms have three components 
