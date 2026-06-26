@@ -12,7 +12,23 @@ Learn AI basics, key terms, and how it's used by both attackers and defenders.
 Define Problem → Data Collection → Algorithm Selection + Model → Data Cleaning → Feature Engineering → Model Evaluation + Training → Model Development → Model Monitoring
 
 ----
-Machine learning algorithms have three components 
-1. Decision process - makes predictions or classifications based on input data
-2. Error function - evaluates performance and provides feedback
-3. Model optimization process -  fine-tunes the algorithm to minimise errors and improve accuracy
+**Machine learning algorithms have three components:**  
+1. **Decision process** - makes predictions or classifications based on input data
+2. **Error function** - evaluates performance and provides feedback
+3. **Model optimization process** -  fine-tunes the algorithm to minimise errors and improve accuracy
+
+**ML algorithms four main categories:** 
+**Supervised** -  relies on **labeled data** to train models for classification or regression tasks (predicting outcomes based on confirmed past experience)  
+**Unsupervised** - works with **unlabeled data** to discover hidden patterns, often using clustering, association, or dimensionality reduction techniques (reviews previous outcomes to try and )  
+**Semi-supervised** - combines the two,  using a **small portion of labeled data** to guide the learning process  
+**Reinforcement learning** -  mimics human learning by **rewarding correct decisions and penalizing mistakes**, allowing an agent to refine its actions over time to achieve the best outcome  
+
+**Neural networks and Deep learning**
+The main objective of AI is to enable computers to behave like humans. In order to achieve this we created neural networks that behave similar to the synapses of our brains. It includes three layes which are the input layer, hidden layer, and output layer. The nodes of a neural network are assigned weights when making decisions and their weights become greater or smaller depending on the accuracy or quality of an answer. Neural networks with more than three layers of nodes are classified as a deep learning (DL) algorithm. 
+
+The **key difference between a DL and an ML** is that a DL does not need the data to be labelled. A DL can take raw unlabelled and/or unstructured data and determine it's key features. Therfore, a DL does not requrie human interactoin (the human interaction being that of labeling the data). A DL is possible thorugh leveraging neural networks. 
+
+
+###LLMs
+**What are LLMs, and how do they work?**
+**Large Language Models (or LLMs)** - are deep learning-based AI models that can process and generate text by predicting the next word in a sequence. 
