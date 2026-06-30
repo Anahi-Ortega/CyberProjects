@@ -20,8 +20,11 @@ Define Problem → Data Collection → Algorithm Selection + Model → Data Clea
 **ML algorithms four main categories:** 
 
 **Supervised** -  relies on **labeled data** to train models for classification or regression tasks (predicting outcomes based on confirmed past experience)  
+
 **Unsupervised** - works with **unlabeled data** to discover hidden patterns, often using clustering, association, or dimensionality reduction techniques (reviews previous outcomes to try and )  
+
 **Semi-supervised** - combines the two,  using a **small portion of labeled data** to guide the learning process  
+
 **Reinforcement learning** -  mimics human learning by **rewarding correct decisions and penalizing mistakes**, allowing an agent to refine its actions over time to achieve the best outcome  
 
 **Neural networks and Deep learning**
@@ -86,3 +89,23 @@ Correct Answer: transformer
 
 ---
 
+
+## ***AI Security Threats***
+**The Implications of AI in Cyber Security**
+Vulnerability in AI Models - new threats introduced by the inclusion of AI technology
+Existing Attacks that can now be enhanced by leveraging AI 
+
+** [ATLAS MITRE] (https://atlas.mitre.org/matrices/ATLAS))** - the ATLAS framework was built on top of the ATT&CK framework to help guide more specifically to the AI Cyber threats 
+
+**Vulnerabilites in AI Models**  
+Prompt Injection  
+Data Poinsoning  
+Model Theft  
+Privacy Leakage  
+Model Drift  
+
+
+**Enhanced Attacks**  
+Malware  
+Deepfakes  
+Phishing  
