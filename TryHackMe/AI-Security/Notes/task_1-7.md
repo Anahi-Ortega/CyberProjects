@@ -109,3 +109,26 @@ Model Drift
 Malware  
 Deepfakes  
 Phishing  
+
+
+---
+
+What framework was developed by MITRE to guide the understanding of AI-specific cyber threats?
+Correct Answer: ATLAS
+
+
+What type of attack involves cloning an AI model by interacting with its API?
+Correct Answer: model theft
+
+
+
+What generative AI technique can replicate a person’s voice or appearance with high realism?
+Correct Answer: deepfake
+
+
+What common social engineering attack has become harder to detect due to AI-generated fluent and convincing messages?
+Correct Answer: phishing
+
+---
+
+## ***Defensive AI***
