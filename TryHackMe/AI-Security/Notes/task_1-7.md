@@ -95,7 +95,7 @@ Correct Answer: transformer
 Vulnerability in AI Models - new threats introduced by the inclusion of AI technology
 Existing Attacks that can now be enhanced by leveraging AI 
 
-** [ATLAS MITRE] (https://atlas.mitre.org/matrices/ATLAS))** - the ATLAS framework was built on top of the ATT&CK framework to help guide more specifically to the AI Cyber threats 
+**[ATLAS MITRE] (https://atlas.mitre.org/matrices/ATLAS))** - the ATLAS framework was built on top of the ATT&CK framework to help guide more specifically to the AI Cyber threats 
 
 **Vulnerabilites in AI Models**  
 Prompt Injection  
