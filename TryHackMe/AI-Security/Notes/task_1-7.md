@@ -128,24 +128,32 @@ Correct Answer: phishing
 ---
 
 
+
 ## ***Defensive AI***
 AI is something that should be understood, harnessed and embraced.
 
-Per IBM's Cost of Databreach report, companies that adopted and embraced AI saved on average $2.2 Million in expenses due to a data breach and cuts down the time it takes to identify and contain a breach by 108 days. The average cost of a data breach in these latest figures was $4.88 Million.
+Per IBM's Cost of data breach report, companies that adopted and embraced AI saved on average $2.2 Million in expenses due to a data breach and cuts down the time it takes to identify and contain a breach by 108 days. The average cost of a data breach in these latest figures was $4.88 Million.
 
-**AI can enhance our ability to...:**
-**Analyze -**  Intrusion detection systems, where we analyse network traffic patterns to identify unusual activity that may indicate a cyber attack is precisely the sort of task that ML thrives on handling. It is trained on data to recognise correlations between data points and make predictions based on those correlations, meaning this technology can be harnessed to help us in cases like the intrusion detection mentioned and many more.  
-**Predict -**  AI models can be trained on data to make accurate predictions on that training data and then eventually on raw unseen data. Just as attackers can harness the power of AI to enhance their phishing emails, so too can we harness the power of AI in identifying phishing emails, as the AI model will be trained on countless examples of phishing emails and so can recognise patterns we may have missed. Once it has successfully predicted it is a phishing email, it can then make a prediction that this email should not reach users and automate the blocking of this email before it reaches them.  
-**Summarize/Digest -** We could have these tools summarise the contents of a document for us so we get the cliff notes of it, now being able to move on in minutes or have them summarise an incident that has occurred, even drawing correlations between other incidents which we may not have picked up on.  
+**AI can enhance our ability to...:**  
+**Analyze -**  Intrusion detection systems, where we analyze network traffic patterns to identify unusual activity that may indicate a cyber attack is precisely the sort of task that ML thrives on handling. It is trained on data to recognize correlations between data points and make predictions based on those correlations, meaning this technology can be harnessed to help us in cases like the intrusion detection mentioned and many more.  
+
+**Predict -**  AI models can be trained on data to make accurate predictions on that training data and then eventually on raw unseen data. Just as attackers can harness the power of AI to enhance their phishing emails, so too can we harness the power of AI in identifying phishing emails, as the AI model will be trained on countless examples of phishing emails and so can recognize patterns we may have missed. Once it has successfully predicted it is a phishing email, it can then make a prediction that this email should not reach users and automate the blocking of this email before it reaches them.  
+
+**Summarize/Digest -** We could have these tools summarize the contents of a document for us so we get the cliff notes of it, now being able to move on in minutes or have them summarize an incident that has occurred, even drawing correlations between other incidents which we may not have picked up on.  
+
 **Investigate -** he ability to query chatbots in natural language and have it respond in a human-like fashion unlocks all kinds of help in this avenue, suddenly we can feed an LLM logs and ask it to identify what is going on, and the LLM can provide queries to be run which give output helpful in the diagnosis of the issue, helping with incident triage. AI could think of potential avenues attackers would take that we wouldn't have thought of.  
 
 **Secure AI**
 If we don't secure the AI we are adopting, then the benefits we stand to gain from it could be overshadowed by attackers taking advantage of these AI vulnerabilities.  
+
 IBM cost of a data breach report, finding that only 24% of gen AI initiatives are secured.  
 **Securing AI Models -**  implementing strong authentication measures and carefully defining access permission secure the models themselves to prevent attacks wherein attackers get access to sensitive data. 
+
 **Privacy Protection - ** training data may include confidential or sensitive information. For this reason training data should be encrypted.  
-**Implememtation of AI Security Standards -** standards like ISO/IEC 27090 provide guidnace on identifying and mitifating security threats specific to AI systems. Following these best practices throughout the development, deployment, and maintenance stages means organisations can proactively address potential risks and minimising exposure to cyber threats.  
-**Model Monitoring -**  "explainability tools" which including SHAP and LIME spot when a model's performance drops and flagging when it needs to be retrained, monitoring should also detect unexpected behaviour, biases, or anomalies that may indicate a security attack.  
+
+**Implementation of AI Security Standards -** standards like ISO/IEC 27090 provide guidance on identifying and mitigating  security threats specific to AI systems. Following these best practices throughout the development, deployment, and maintenance stages means organizations can proactively address potential risks and minimizing exposure to cyber threats.  
+
+**Model Monitoring -**  "explainability tools" which including SHAP and LIME spot when a model's performance drops and flagging when it needs to be retrained, monitoring should also detect unexpected behavior, biases, or anomalies that may indicate a security attack.  
 
 
 ---
