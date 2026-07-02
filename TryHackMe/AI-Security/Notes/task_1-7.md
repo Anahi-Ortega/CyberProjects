@@ -142,10 +142,10 @@ Per IBM's Cost of Databreach report, companies that adopted and embraced AI save
 **Secure AI**
 If we don't secure the AI we are adopting, then the benefits we stand to gain from it could be overshadowed by attackers taking advantage of these AI vulnerabilities.  
 IBM cost of a data breach report, finding that only 24% of gen AI initiatives are secured.  
-**Securing AI Models - **  implementing strong authentication measures and carefully defining access permission secure the models themselves to prevent attacks wherein attackers get access to sensitive data. 
+**Securing AI Models -**  implementing strong authentication measures and carefully defining access permission secure the models themselves to prevent attacks wherein attackers get access to sensitive data. 
 **Privacy Protection - ** training data may include confidential or sensitive information. For this reason training data should be encrypted.  
-**Implememtation of AI Security Standards - ** standards like ISO/IEC 27090 provide guidnace on identifying and mitifating security threats specific to AI systems. Following these best practices throughout the development, deployment, and maintenance stages means organisations can proactively address potential risks and minimising exposure to cyber threats.  
-**Model Monitoring - **  "explainability tools" which including SHAP and LIME spot when a model's performance drops and flagging when it needs to be retrained, monitoring should also detect unexpected behaviour, biases, or anomalies that may indicate a security attack.  
+**Implememtation of AI Security Standards -** standards like ISO/IEC 27090 provide guidnace on identifying and mitifating security threats specific to AI systems. Following these best practices throughout the development, deployment, and maintenance stages means organisations can proactively address potential risks and minimising exposure to cyber threats.  
+**Model Monitoring -**  "explainability tools" which including SHAP and LIME spot when a model's performance drops and flagging when it needs to be retrained, monitoring should also detect unexpected behaviour, biases, or anomalies that may indicate a security attack.  
 
 
 ---
