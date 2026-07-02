@@ -149,7 +149,7 @@ If we don't secure the AI we are adopting, then the benefits we stand to gain fr
 IBM cost of a data breach report, finding that only 24% of gen AI initiatives are secured.  
 **Securing AI Models -**  implementing strong authentication measures and carefully defining access permission secure the models themselves to prevent attacks wherein attackers get access to sensitive data. 
 
-**Privacy Protection - ** training data may include confidential or sensitive information. For this reason training data should be encrypted.  
+**Privacy Protection -** training data may include confidential or sensitive information. For this reason training data should be encrypted.  
 
 **Implementation of AI Security Standards -** standards like ISO/IEC 27090 provide guidance on identifying and mitigating  security threats specific to AI systems. Following these best practices throughout the development, deployment, and maintenance stages means organizations can proactively address potential risks and minimizing exposure to cyber threats.  
 
