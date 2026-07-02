@@ -54,11 +54,11 @@ Correct Answer: synapses
 ## ***LLMs***
 **What are LLMs, and how do they work?**
 
-**Large Language Models (or LLMs)** - are deep learning-based AI models that can process and generate text by predicting the next word in a sequence. 
+**Large Language Models (or LLMs)** - are deep learning-based AI models that can process and generate text by predicting the next word in a sequence.  
 
-LLMs are first tarind in a "pre-training" phase where they process vast amounts of text. Instead of relying on labbeled data, LLMs use billions of parameters that enable them to understand and generate human-like language when assessed together. 
+LLMs are first tarind in a "pre-training" phase where they process vast amounts of text. Instead of relying on labbeled data, LLMs use billions of parameters that enable them to understand and generate human-like language when assessed together.   
 
-Their predictions are then compated to what the correct word was and the paramaters are fine-tuned to make it more likely to predict the correct word and therefore less likely to predict the incorrect word. This is by using a am algorith called backpropagation. 
+Their predictions are then compated to what the correct word was and the paramaters are fine-tuned to make it more likely to predict the correct word and therefore less likely to predict the incorrect word. This is by using a am algorith called backpropagation.   
 
 This process repeates trillions of times over is possible thanks to the hardware advancements in GPUs, Neural Networks, and specifically transformer neural networks. 
 
@@ -140,12 +140,12 @@ Per IBM's Cost of Databreach report, companies that adopted and embraced AI save
 **Investigate - ** he ability to query chatbots in natural language and have it respond in a human-like fashion unlocks all kinds of help in this avenue, suddenly we can feed an LLM logs and ask it to identify what is going on, and the LLM can provide queries to be run which give output helpful in the diagnosis of the issue, helping with incident triage. AI could think of potential avenues attackers would take that we wouldn't have thought of.
 
 **Secure AI**
-If we don't secure the AI we are adopting, then the benefits we stand to gain from it could be overshadowed by attackers taking advantage of these AI vulnerabilities.
-IBM cost of a data breach report, finding that only 24% of gen AI initiatives are secured.
+If we don't secure the AI we are adopting, then the benefits we stand to gain from it could be overshadowed by attackers taking advantage of these AI vulnerabilities.  
+IBM cost of a data breach report, finding that only 24% of gen AI initiatives are secured.  
 **Securing AI Models - **  implementing strong authentication measures and carefully defining access permission secure the models themselves to prevent attacks wherein attackers get access to sensitive data. 
-**Privacy Protection - ** training data may include confidential or sensitive information. For this reason training data should be encrypted.
-**Implememtation of AI Security Standards - ** standards like ISO/IEC 27090 provide guidnace on identifying and mitifating security threats specific to AI systems. Following these best practices throughout the development, deployment, and maintenance stages means organisations can proactively address potential risks and minimising exposure to cyber threats. 
-**Model Monitoring - **  "explainability tools" which including SHAP and LIME spot when a model's performance drops and flagging when it needs to be retrained, monitoring should also detect unexpected behaviour, biases, or anomalies that may indicate a security attack.
+**Privacy Protection - ** training data may include confidential or sensitive information. For this reason training data should be encrypted.  
+**Implememtation of AI Security Standards - ** standards like ISO/IEC 27090 provide guidnace on identifying and mitifating security threats specific to AI systems. Following these best practices throughout the development, deployment, and maintenance stages means organisations can proactively address potential risks and minimising exposure to cyber threats.  
+**Model Monitoring - **  "explainability tools" which including SHAP and LIME spot when a model's performance drops and flagging when it needs to be retrained, monitoring should also detect unexpected behaviour, biases, or anomalies that may indicate a security attack.  
 
 
 ---
