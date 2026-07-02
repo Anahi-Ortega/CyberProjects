@@ -15,7 +15,7 @@ Would you like me to analyze this further or suggest defensive actions?
 
 
 ---
-
+# Phishing Email Detection 
 
 ### Prompt 
 Here's a suspicious email. Can you identify if it's a phishing attempt and explain why?
@@ -45,7 +45,7 @@ This email is almost certainly a phishing attempt designed to steal login creden
 
 
 ---
-
+# Threat Hunting Scenario
 
 ### Prompt  
 Can you suggest three realistic threat hunting scenarios that a cyber security analyst should investigate within a corporate network environment?
@@ -74,7 +74,7 @@ Would you like more details or additional scenarios?
 
 
 ---
-
+# Content Creation
 
 ### Prompt  
 Please write a regex pattern that would match failed SSH login attempts in a typical Linux system authentication log.
@@ -108,7 +108,7 @@ Would you like a version that matches IPv6 as well or more specific to your log 
 
 
 ---
-
+#Putting it to the test 
 
 ### Prompt  
 thm{DNS over HTTPS (DoH) Port/SYN flood timeout/ windows ephemeral port range size}
