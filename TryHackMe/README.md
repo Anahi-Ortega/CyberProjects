@@ -1,1 +1,1 @@
-[Check out my progress on TryHackMe](https://tryhackme.com/p/ort04?utm_campaign=social_share&utm_medium=social&utm_content=profile&cardVersion=fc881c47207e&utm_source=copy&sharerId=6a35ab18b36a668cf048fa47)
+[Check out my progress on TryHackMe](https://tryhackme.com/p/SudoScorpion)
