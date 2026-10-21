@@ -4,6 +4,8 @@
 
 This project documents my experience completing the [TryHackMe SOC Simulator - Introduction to Phishing](https://tryhackme.com/soc-sim/public-summary/aca9df485eb783415cbbe4a97e7df8f657999678bc4e53b5cee0586a51c4ffa4710b1edb813c3e5cc2825fbf0cf1afe4), a hands-on security operations exercise focused on investigating alerts, analyzing security events, and determining appropriate escalation and remediation actions.
 
+<img width="1177" height="945" alt="report-true-false-glance" src="https://github.com/user-attachments/assets/b6bf96bc-8100-4b57-b8ab-d2451a5b348b" />
+
 Throughout the exercise, I investigated security alerts using the information provided in each case and supporting log data. My investigations included evaluating suspicious email activity, validating malicious indicators, correlating events across available logs, and documenting evidence-based incident assessments.
 
 The objective of this project was to practice the investigative workflow of a security analyst, from initial alert review through classification, escalation, and recommended response.
