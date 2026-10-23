@@ -66,11 +66,11 @@ This process repeates trillions of times over is possible thanks to the hardware
 
 **Reinforcement learning from Human Feedback** - this is when predictions are reviewed, and any that would be considered unhelpful by a user or have issues are flagged and the parameters are adjusted accordingly. Once trained and reinforced, the LLM can be used
 
-**How they all correlate:**
-**AI** - the overarching field, encompassing all systems that mimic human intelligence
-**ML** -  a subfield of AI that enables systems to learn patterns from data without explicit programming
-**DL** - a specialised branch of ML, which uses neural networks to process vast amounts of data in complex ways without the need for human interaction, making it effectively scalable ML
-**Gen AI**
+**How they all correlate:**  
+**AI** - the overarching field, encompassing all systems that mimic human intelligence  
+**ML** -  a subfield of AI that enables systems to learn patterns from data without explicit programming  
+**DL** - a specialised branch of ML, which uses neural networks to process vast amounts of data in complex ways without the need for human interaction, making it effectively scalable ML  
+**Gen AI**  
 **LLMs** - advanced DL models built on neural networks, specifically transformers, designed to understand and generate human-like text
 
 
@@ -94,7 +94,7 @@ Correct Answer: transformer
 Vulnerability in AI Models - new threats introduced by the inclusion of AI technology
 Existing Attacks that can now be enhanced by leveraging AI 
 
-**[ATLAS MITRE] (https://atlas.mitre.org/matrices/ATLAS))** - the ATLAS framework was built on top of the ATT&CK framework to help guide more specifically to the AI Cyber threats 
+**[ATLAS MITRE](https://atlas.mitre.org/matrices/ATLAS)** - the ATLAS framework was built on top of the ATT&CK framework to help guide more specifically to the AI Cyber threats 
 
 **Vulnerabilites in AI Models**  
 Prompt Injection  
@@ -176,7 +176,7 @@ See Practical section
 
 ## ***Conclusion***  
 Final recap:  
-- ** Artificial Intelligence (AI)** is the overarching field concerned with enabling machines/systems to mimic human behavior.
+- **Artificial Intelligence (AI)** is the overarching field concerned with enabling machines/systems to mimic human behavior.
 - **Machine learning (ML)** is a subfield of AI in which a model can be fed and trained on input and used to make predictions.
 - **Deep learning (DL)** is then a subfield of ML. It no longer needs human interaction and can self-tech and process mass amounts of data, possible through the use of Neural Networks.
 - DL has enabled the emergence of technologies like LLMs (and other generative AI), which, through the use of transformer neural networks and attention, can be queried in natural language, understand it and respond in a human-like, conversational fashion.
