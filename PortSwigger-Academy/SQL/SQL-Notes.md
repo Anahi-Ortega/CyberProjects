@@ -49,6 +49,6 @@ The modified query returns all items where either the category is Gifts, or 1 is
 
 Imagine an application that lets users log in with a username and password. If the query returns the details of a user, then the login is successful. Otherwise, it is rejected.
 
-In this case, an attacker can log in as any user without the need for a password. They can do this using the SQL comment sequence -- to remove the password check from the WHERE clause of the query. For example, submitting the username administrator'-- and a blank password results in the following query:  
+In this case, an attacker can log in as any user without the need for a password. They can do this using the SQL comment sequence `--` to remove the password check from the WHERE clause of the query. For example, submitting the username `administrator'--` and a blank password results in the following query:  
 `SELECT * FROM users WHERE username = 'c'--' AND password = ''`  
 This query returns the user whose username is administrator and successfully logs the attacker in as that user.
