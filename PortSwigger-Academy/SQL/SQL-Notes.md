@@ -44,3 +44,11 @@ This results in the SQL query:
 The modified query returns all items where either the category is Gifts, or 1 is equal to 1. As 1=1 is always true, the query returns all items.
 
 [!WARNING]  When injecting the condition OR 1=1 into a SQL query, it's common for applications to use data from a single request in multiple different queries. If your condition reaches an UPDATE or DELETE statement, for example, it can result in an accidental loss of data.
+
+## Subverting application logic
+
+Imagine an application that lets users log in with a username and password. If the query returns the details of a user, then the login is successful. Otherwise, it is rejected.
+
+In this case, an attacker can log in as any user without the need for a password. They can do this using the SQL comment sequence -- to remove the password check from the WHERE clause of the query. For example, submitting the username administrator'-- and a blank password results in the following query:  
+`SELECT * FROM users WHERE username = 'administrator'--' AND password = ''`  
+This query returns the user whose username is administrator and successfully logs the attacker in as that user.
