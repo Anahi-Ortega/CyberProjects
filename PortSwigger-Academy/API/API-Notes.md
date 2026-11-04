@@ -40,7 +40,7 @@ Burp Scanner can crawl the API. You can also browse manually using Burp's browse
 If you identify an endpoint for a resource, make sure to investigate the base path. For example, if you identify the resource endpoint `/api/swagger/v1/users/123`, then you should investigate the following paths:
 
 - `/api/swagger/v1`
--`/api/swagger`
+- `/api/swagger`
 - `/api`
 
 You can also use a list of common paths to find documentation using Intruder.
