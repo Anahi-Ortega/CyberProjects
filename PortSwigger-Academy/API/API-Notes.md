@@ -73,7 +73,7 @@ An endpoint may support different HTTP methods so test all potential methods whe
 
 You can use the built-in HTTP verbs list in Burp Intruder to automatically cycle through a range of methods. 
 
->{!NOTE} IMPORTANT: When testing different HTTP methods, target low-priority objects. This helps make sure that you avoid unintended consequences, for example altering critical items or creating excessive records.
+>[!NOTE] IMPORTANT: When testing different HTTP methods, target low-priority objects. This helps make sure that you avoid unintended consequences, for example altering critical items or creating excessive records.
 
 ### Identifying supported content types
 API endpoints often expect data in a specific format and may behave differently depending on the content type of the data in the request. Changing content may emable you to: 
