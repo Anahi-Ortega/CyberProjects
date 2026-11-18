@@ -25,7 +25,7 @@ The folder is determined by the type of report. The platform appears in the inde
 | ID | Title | Platform | Severity | Status |
 |---|---|---|---|---|
 | FR-SQL-001 | SQL Injection in Category Filter Exposing Hidden Data | PortSwigger | | Planned |
-| FR-SQL-002 | Authentication Bypass via SQL Injection | PortSwigger | | Planned |
+| FR-SQL-002 | Authentication Bypass via SQL Injection | PortSwigger | | [Completed](./Finding-Reports/FR-SQL-002.md) |
 | FR-API-001 | Exposed API Documentation Enabling Account Deletion | PortSwigger | | Planned |
 | FR-API-002 | Hidden API Endpoint Allowing Price Manipulation | PortSwigger | | Planned |
 
