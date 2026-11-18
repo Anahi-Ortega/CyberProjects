@@ -10,7 +10,7 @@ Every report links back to its source walkthrough, and the walkthrough links for
 
 | Type | Folder | ID prefix | Audience | Scope |
 |---|---|---|---|---|
-| **Finding report** | `Finding-Reports/` *(created with the first report)* | `FR-` | Technical and security staff | One vulnerability |
+| **Finding report** | [`Finding-Reports/`](./Finding-Reports/) | `FR-` | Technical and security staff | One vulnerability |
 | **Engagement report** | [`Engagement-Reports/`](./Engagement-Reports) | `ER-` | Executives and technical leads | A full assessment |
 | **Incident report** | [`Incident-Reports/`](./Incident-Reports) | `IR-` | SOC and incident response | One investigated alert |
 
