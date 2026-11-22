@@ -1,5 +1,22 @@
 # SQL-002 – SQL injection vulnerability allowing login bypass
 
+## Table of Contents
+| Section | Title |
+|---|---|
+| 1 | [Metadata](#1-metadata) |
+| 2 | [Summary](#2-summary) |
+| 3 | [Classification](#3-classification) |
+| 4 | [Scope & Environment](#4-scope--environment) |
+| 5 | [Methodology](#5-methoodology) |
+| 6 | [Proof of Concept](#6-proof-of-concept) |
+| 7 | [Root Cause](#7-root-cause) |
+| 8 | [Impact](#8-impact) |
+| 9 | [Remediation](#9-remediation) |
+| 10 | [Detection & Response](#10-detection--response) |
+| 11 | [Lessons Learned](#11-lessons-learned) |
+| 12 | [References](#12-references) |
+| [Appendix](#appendix--dead-ends--additional-evidence) | |
+
 ## 1. Metadata
 
 | Field | Details |
