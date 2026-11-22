@@ -7,7 +7,7 @@
 | 2 | [Summary](#2-summary) |
 | 3 | [Classification](#3-classification) |
 | 4 | [Scope & Environment](#4-scope--environment) |
-| 5 | [Methodology](#5-methoodology) |
+| 5 | [Methodology](#5-methodology) |
 | 6 | [Proof of Concept](#6-proof-of-concept) |
 | 7 | [Root Cause](#7-root-cause) |
 | 8 | [Impact](#8-impact) |
