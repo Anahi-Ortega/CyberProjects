@@ -90,20 +90,68 @@ In a federated setup, participants can submit poisoned local updates (subtly man
 
 ## The Inheritance Problem
 **Pre-Trained Models & Fine-Tuning**
+Startings with someone else's pretrained model saves millions of dollars, hours of work and computing energy.
+
+Pre-trained models have general info and language understanding like grammar, facts, reasoning patterns, and world knowledge. They've been produced by a small number of well-resourced organizations and made available for others either through their weights or API access. 
+
+Fine-tuning - the process of continuing to train one of these pre-trained models on a smaller, task-specific dataset.
+
+A particular company or team will fine tune their model to improve the understanding necessary to accomplish their particular goal or objective. 
+
+**What fine-tuning changes:** the model's task-specific behavior, tone, and domain knowledge
+
+**What fine-tuning does not change:** base model weights
 
 **The Inheritance Problem**
+This is where security risks are. When you use a pre-trained model you inherity everything that modle already contains including the things you cannot see and did not choose: 
+- Biases baked in during pre-training persist
+- Unexpected behaviors introduced by the base model's training data carry through
+- Any safety alignment built into the base model is not as durable as it might appear
+
+These can show up in three concrete ways: 
+1. Safety alignment erodes, not breaks
+2. Specialization increases attack surface
+3. Version matters, and it's rarely tracked
+
+
 
 **Inheritance Tax**
 
+when your organization deploys a fine-tuned model, you're also deploying the entire pre-trained base beneth it.  The base beneth was shaped by a training process you didn't control, on data you didn't audit, and by an organization whose supply chaing you almost certainly haven't reveiwed. 
+
+**Fine-tuning doesn't sanatize what came before it.**
+
 ## The Black Box Problem
 **Models Are a Black Box**
+When a security team wants to audit software you can look at the source code or compiled binaries can be disassempled. A trained model's weights are not readable and cannot be reasoned about. There are billions of floating-point numbers that carry no human-readable record of how they were shaped, what data influenced them, or what behaviors they encode. You can't open a model find the decision that makes it behave a certain way. This is a black box. 
+
+Trusting a model is fundamentally, trusting the process that produced it. You can test its behavior but this is sampling, not auditing. The model cannot tell you what it will do on inputs you haven't thought of yet. The attack surface is defined by the model's training, which is opaque. 
 
 **Model Cards**
+The documentation artifact designed to address is the model card. 
+
+Model Card - a structured document that accompanies a model and describes what it is, how it was built, and where it falls short. Introduced by Google researchers in 2019, it has become the closest thing the industry has to a standard transparency format.
+
+| Section | What it should tell you |
+|---|---|
+| Training data | What sources were used, how they were filtered, known gaps or biases |
+| Intended user | What the model was designed for (and explictly what it wasn't) |
+| Evaluation | Performance metrics across different conditions and demographics | 
+| Known limitations | Conditions under which the model is known to underperform or behave unexpectedly |
+| Bias assessment | Where training data or evaluatoin may have introuduced skew |
+|License | What you're legally permitted to do with the model |
+
+This is essentially the nutrition label for an AI model. You can't see the individual parts of a product, but the label is supposed to tell you what went into it and what to watch out for. 
 
 **The Gaps**
+In practice model cards can also be frequently vague and in some cases absent entirely. There is no regularoty requirement to produce one as of now it remains voluntary. The incentirve to be thorough is weak when disclosing limiations might reduce adoption. . The Data Provenance Initiative's audit of over 1,800 datasets found documentation gaps throughout the AI supply chain, and model cards sit at the end of that same underdocumented pipeline.
+
+A sparce or missing model card isn't an inconvenience but more so a warning sign. It means there is either a lack of thoroughly documenting findings or they are actively chooseing not to disclose what they found. Either way the downstream user is blind. 
 
 **In Short**
+The model card is your audit trail. In absence of one there is not audit trail, just a black box and hope that whoever built it was thorough. **In security hope is not control.**
 
 ## Practical
+
 
 ## Conclusion
