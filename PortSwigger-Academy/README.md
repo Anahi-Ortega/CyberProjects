@@ -11,8 +11,8 @@ Each walkthrough records how I solved the lab and what I learned. Selected labs 
 | ID | Lab | Difficulty | Category | Technique | Walkthrough | Report |
 |---|---|---|---|---|---|---|
 | SQL-001 | SQL injection vulnerability in WHERE clause allowing retrieval of hidden data | Apprentice | SQL injection | WHERE clause injection, URL parameter manipulation | [Walkthrough](<./SQL/(SQL-001)SQL-injection-vulnerability-in-WHERE-clause-allowing-retrevial-of-hidden-data.md>) | Planned |
-| SQL-002 | SQL injection vulnerability allowing login bypass | Apprentice | SQL injection | Authentication bypass, request interception | [Walkthrough](<./SQL/(SQL-002)SQL-injection-vulnerability-allowing-login-bypass.md>) | Planned |
-| API-001 | Exploiting an API endpoint using documentation | Apprentice | API testing | API documentation discovery | [Walkthrough](<./API/(API-001)Exploiting-an-API-endpoint-using-documentation.md>) | Planned |
+| SQL-002 | SQL injection vulnerability allowing login bypass | Apprentice | SQL injection | Authentication bypass, request interception | [Walkthrough](<./SQL/(SQL-002)SQL-injection-vulnerability-allowing-login-bypass.md>) | [Findings Report](../Reports/Finding-Reports/FR-SQL-002.md) |
+| API-001 | Exploiting an API endpoint using documentation | Apprentice | API testing | API documentation discovery | [Walkthrough](<./API/(API-001)Exploiting-an-API-endpoint-using-documentation.md>) | [Findings Report](../Reports/Finding-Reports/FR-API-001.md) |
 | API-002 | Finding and exploiting an unused API endpoint | Practitioner | API testing | Unused endpoint discovery | [Walkthrough](<./API/(API-002)Finding-and-exploiting-an-unused-API-endpoint.md>) | Planned |
 
 > Difficulty labels (Apprentice, Practitioner, Expert) are PortSwigger's own.
