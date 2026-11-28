@@ -152,6 +152,13 @@ A sparce or missing model card isn't an inconvenience but more so a warning sign
 The model card is your audit trail. In absence of one there is not audit trail, just a black box and hope that whoever built it was thorough. **In security hope is not control.**
 
 ## Practical
-
+[See the practical here](../../Practicals/02-Modles&Data-practical.md)
 
 ## Conclusion
+We are now better equipped to ask the right questions like:  
+Where did this model come from? What does it contain? Does anyone actually know?  
+
+Most organizations have no relaiable answer where their training data comes from, what it contains, and whether or not it has been tampered with.  
+PII and live credentials often end up in a models wieghts through large scale scrapping.  
+Fine tuning inherits the faults of everything beneth it and are more susceptible to prompt injection that their base counterparts.  
+Trained weights are fundamentally opaque with security testing only able to sample, not audit it. 
